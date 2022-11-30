@@ -131,7 +131,7 @@ components.push(new MessageButton().setLabel("Invite Link").setURL(client.getInv
 
   const embed = new MessageEmbed()
     .setColor(EMBED_COLORS.BOT_EMBED)
- .setImage("https://cdn.discordapp.com/attachments/965654226187460629/980773092307664926/09611780-c857-11eb-859d-0761b6537103.jpeg")  .setThumbnail(client.user.displayAvatarURL())
+ .setImage("https://media.discordapp.net/attachments/864956358973325342/912636970931486750/Banner_Discord.png")  .setThumbnail(client.user.displayAvatarURL())
     .setDescription(
       "**About Me:**\n" +
         `Hello I am ${guild.me.displayName}!\n` +
